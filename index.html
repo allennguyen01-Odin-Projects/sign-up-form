@@ -4,37 +4,48 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>こんにちは世界</title>
 		<link rel="stylesheet" href="normalize.css" />
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<form id="create-user-account" action="" method="get">
-			<div>
-				<label for="first-name">First Name</label>
-				<input type="text" name="first_name" id="first-name" placeholder="John" />
-
-				<label for="last-name">Last Name</label>
-				<input type="text" name="last_name" id="last-name" placeholder="Smith" />
-			</div>
-
-			<div>
-				<label for="email">Email</label>
-				<input type="email" name="email" id="email" placeholder="sample@gmail.com" />
-
-				<label for="phone-number">Phone Number</label>
-				<input type="tel" name="phone_number" id="phone-number" placeholder="+0 (123) 456 7890" />
-			</div>
-
-			<div>
-				<label for="password">Password</label>
-				<input type="text" name="password" id="password" />
-
-				<label for="password-confirm">Confirm Password</label>
-				<input type="text" name="password_confirm" id="password-confirm" />
-			</div>
-
-			<button type="submit">Create Account</button>
-		</form>
+		<div id="main">
+			<h1>こんにちは世界!</h1>
+			<form id="create-user-account" action="" method="get">
+				<fieldset>
+					<div>
+						<label for="first-name">First Name</label>
+						<input type="text" name="first_name" id="first-name" placeholder="John" />
+					</div>
+					<div>
+						<label for="last-name">Last Name</label>
+						<input type="text" name="last_name" id="last-name" placeholder="Smith" />
+					</div>
+				</fieldset>
+				<fieldset>
+					<div>
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" placeholder="sample@gmail.com" />
+					</div>
+					<div>
+						<label for="phone-number">Phone Number</label>
+						<input type="tel" name="phone_number" id="phone-number" placeholder="+0 (123) 456 7890" />
+					</div>
+				</fieldset>
+				<fieldset>
+					<div>
+						<label for="password">Password</label>
+						<input type="text" name="password" id="password" />
+					</div>
+					<div>
+						<label for="password-confirm">Confirm Password</label>
+						<input type="text" name="password_confirm" id="password-confirm" />
+					</div>
+				</fieldset>
+				<fieldset>
+					<button type="submit">Create Account</button>
+				</fieldset>
+			</form>
+		</div>
 	</body>
 </html>
