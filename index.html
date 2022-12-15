@@ -8,5 +8,33 @@
 		<link rel="stylesheet" href="normalize.css" />
 		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body></body>
+	<body>
+		<form id="create-user-account" action="" method="get">
+			<div>
+				<label for="first-name">First Name</label>
+				<input type="text" name="first_name" id="first-name" placeholder="John" />
+
+				<label for="last-name">Last Name</label>
+				<input type="text" name="last_name" id="last-name" placeholder="Smith" />
+			</div>
+
+			<div>
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="sample@gmail.com" />
+
+				<label for="phone-number">Phone Number</label>
+				<input type="tel" name="phone_number" id="phone-number" placeholder="+0 (123) 456 7890" />
+			</div>
+
+			<div>
+				<label for="password">Password</label>
+				<input type="text" name="password" id="password" />
+
+				<label for="password-confirm">Confirm Password</label>
+				<input type="text" name="password_confirm" id="password-confirm" />
+			</div>
+
+			<button type="submit">Create Account</button>
+		</form>
+	</body>
 </html>
