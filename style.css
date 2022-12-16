@@ -6,6 +6,9 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: flex-end;
+	background-image: url(images/greenhouse-pixel-art.webp);
+	background-size: 87%;
+	background-position-x: -65%;
 }
 
 #main {
@@ -15,7 +18,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: antiquewhite;
+	background: linear-gradient(#9198e5, lightgreen);
 }
 
 h1 {
