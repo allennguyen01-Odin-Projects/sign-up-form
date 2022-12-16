@@ -30,8 +30,6 @@ body {
 	justify-content: center;
 	/* background: linear-gradient(#9198e5, rgb(70, 173, 70)); */
 	background: linear-gradient(#e924ef, #07122e);
-	color: white;
-	font-weight: 700;
 }
 
 h1 {
@@ -57,4 +55,20 @@ fieldset {
 input,
 label {
 	display: block;
+}
+
+button {
+	background-color: transparent;
+	/* background: linear-gradient(#e924ef, #07122e); */
+	padding: 1rem 3rem;
+	color: white;
+	cursor: pointer;
+	border: 2px solid white;
+	border-radius: 20px;
+}
+
+#main,
+button {
+	color: white;
+	font-weight: 700;
 }
