@@ -7,5 +7,5 @@ TOP "Project: Sign-Up Form" Link: https://www.theodinproject.com/lessons/node-pa
 
 📈 Improvements:
 
-- :valid and "invalid pseudo-class styling
 - Toggle theme with a button (light/dark mode)
+- Make it look good on mobile
