@@ -56,7 +56,7 @@
 					<div>
 						<label for="password">Password*</label>
 						<input
-							type="text"
+							type="password"
 							name="password"
 							id="password"
 							required
@@ -65,13 +65,15 @@
 					</div>
 					<div>
 						<label for="password-confirm">Confirm Password*</label>
-						<input type="text" name="password_confirm" id="password-confirm" required />
+						<input type="password" name="password_confirm" id="password-confirm" required />
+						<span id="password-validation"></span>
 					</div>
 				</fieldset>
 				<fieldset>
-					<button type="submit">Create Account</button>
+					<button id="submit-button" type="submit">Create Account</button>
 				</fieldset>
 			</form>
 		</div>
+		<script src="password.js" async defer></script>
 	</body>
 </html>

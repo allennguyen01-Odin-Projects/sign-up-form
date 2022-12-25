@@ -72,3 +72,13 @@ button {
 	color: white;
 	font-weight: 700;
 }
+
+span#password-validation {
+	font-size: 0.75rem;
+	font-weight: 300;
+}
+
+button.disabled {
+	opacity: 50%;
+	cursor: not-allowed;
+}
