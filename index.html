@@ -59,13 +59,20 @@
 							type="password"
 							name="password"
 							id="password"
+							class="password"
 							required
 							pattern="(?=^.{8,}$)(?=.*\d)(?=.*\W+)(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
 							title="Must contain at least 8 characters with at least one uppercase, lower, number, and special character" />
 					</div>
 					<div>
 						<label for="password-confirm">Confirm Password*</label>
-						<input type="password" name="password_confirm" id="password-confirm" required />
+						<input
+							type="password"
+							name="password_confirm"
+							id="password-confirm"
+							class="password"
+							required
+							pattern="(?=^.{8,}$)(?=.*\d)(?=.*\W+)(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" />
 						<span id="password-validation"></span>
 					</div>
 				</fieldset>
