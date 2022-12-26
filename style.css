@@ -5,6 +5,8 @@ html {
 }
 
 body {
+	font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol";
 	height: 100vh;
 	display: flex;
 	flex-direction: row;
@@ -30,6 +32,7 @@ body {
 	justify-content: center;
 	/* background: linear-gradient(#9198e5, rgb(70, 173, 70)); */
 	background: linear-gradient(#e924ef, #07122e);
+	color: white;
 }
 
 h1 {
@@ -38,8 +41,6 @@ h1 {
 }
 
 form {
-	font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-		"Segoe UI Symbol";
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -96,4 +97,23 @@ button.disabled {
 
 .password:invalid {
 	border: 4px solid red;
+}
+
+footer {
+	position: absolute;
+	bottom: 10px;
+}
+
+footer a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+footer img {
+	filter: invert(100%);
+	height: 40px;
 }
