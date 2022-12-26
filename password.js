@@ -7,7 +7,7 @@ function password() {
 	if (password != passwordConfirm) {
 		submit.disabled = true;
 		submit.classList.add("disabled");
-		passwordValidation.textContent = "❌ Password does not match";
+		passwordValidation.textContent = "❌ Passwords do not match";
 	} else {
 		submit.disabled = false;
 		submit.classList.remove("disabled");
