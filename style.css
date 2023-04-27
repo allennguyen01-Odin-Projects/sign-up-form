@@ -38,6 +38,7 @@ body {
 h1 {
 	font-family: "Mochiy Pop One", sans-serif;
 	font-size: 3rem;
+	filter: drop-shadow(0 0 1rem #07122e);
 }
 
 form {

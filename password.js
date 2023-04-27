@@ -1,10 +1,11 @@
-function confirmPassword() {
-  const password = document.getElementById('password').value;
-  const passwordConfirm = document.getElementById('password-confirm').value;
-  const submit = document.getElementById('submit-button');
-  const passwordValidation = document.getElementById('password-validation');
+const password = document.getElementById('password');
+const passwordConfirm = document.getElementById('password-confirm');
+const submit = document.getElementById('submit-button');
+const passwordValidation = document.getElementById('password-validation');
 
-  if (password !== passwordConfirm) {
+function confirmPassword() {
+
+  if (password.value !== passwordConfirm.value) {
     submit.disabled = true;
     submit.classList.add('disabled');
     passwordValidation.textContent = '❌ Passwords do not match';
@@ -15,5 +16,5 @@ function confirmPassword() {
   }
 }
 
-const passwordConfirm = document.getElementById('password-confirm');
 passwordConfirm.addEventListener('keyup', confirmPassword);
+password.addEventListener('keyup', confirmPassword);
